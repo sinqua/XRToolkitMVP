@@ -78,7 +78,7 @@ public class KeypadFeature : BaseFeature
     public void ToggleKeypad()
     {
         bool active = keypadUI.activeSelf;
-        keypadUI.SetActive(active);
+        keypadUI.SetActive(!active);
     }
 
     public void LogInfo(string message) => Debug.Log(message);
