@@ -44,6 +44,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e78280b2daf9b2d4ab6e1b794210b974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contollerMenuAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Contoller Menu
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: fa4ce965-cf4d-414f-9fad-8ed381a2ed8b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
 --- !u!1 &7098300305930291438
 GameObject:
   m_ObjectHideFlags: 0
@@ -88,6 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19fbd658ceee6d64082d1aa80c412c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offsetPositionFromPlayer: 1
+  menuContainer: {fileID: 0}
 --- !u!1 &7359464441559117466
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 877f0362ae31a3b46a11c8981208ced2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <GameState>k__BackingField: 0
 --- !u!1 &8190588899683043548
 GameObject:
   m_ObjectHideFlags: 0
